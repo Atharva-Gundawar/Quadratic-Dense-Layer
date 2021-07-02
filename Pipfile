@@ -5,10 +5,12 @@ name = "pypi"
 
 [packages] 
 numpy = "*"
+tensorflow = "*"
 
 [dev-packages]
 pylint = "*"
 wheel = "*"
+pytest ="*"
 
 [requires] # Here goes your required Python version.
 python_version = "3.6"
